@@ -1,0 +1,4 @@
+export type PostizChannel={id:string;name:string;platform:string;picture?:string};
+export type PublishState='preparing'|'submitting'|'scheduled'|'published'|'error'|'uncertain'|'upload_failed'|'draft'|'resolved';
+export type PublishJob={id:string;postId:string;title:string;brand:string;channelName:string;platform:string;scheduledAt:string;state:PublishState;remoteId:string|null;previewUrl:string|null;message:string;createdAt:number;updatedAt:number;canResolve:boolean};
+export const publishLabels:Record<PublishState,string>={preparing:'Görseller aktarılıyor',submitting:'Postiz yanıtı bekleniyor',scheduled:'Postiz’de planlandı',published:'Yayımlandı',error:'Paylaşım hatası',uncertain:'Sonuç kontrol edilmeli',upload_failed:'Aktarım tamamlanamadı',draft:'Postiz’de taslak',resolved:'Yeni denemeye açıldı'};

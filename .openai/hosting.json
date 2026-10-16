@@ -1,0 +1,7 @@
+{
+  "d1": "DB",
+  "r2": "BUCKET",
+  "project_id": "appgprj_6ac8ee4c0fac8191b5bdb4854baf241d",
+  "plugins": [{"id":"plugin_asdk_app_6aaaf1a529808191a2a15fde824bb013","connector_ids":["asdk_app_6aaaf1a529808191a2a15fde824bb013"]}],
+  "connectors": [{"id":"asdk_app_6aaaf1a529808191a2a15fde824bb013","action_selection_mode":"all"}]
+}

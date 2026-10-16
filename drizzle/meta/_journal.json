@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791553825966,
+      "tag": "0000_volatile_crystal",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1792044914948,
+      "tag": "0001_outstanding_chameleon",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792050860070,
+      "tag": "0002_brand_catalog",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1792067280093,
+      "tag": "0003_postiz_planning",
+      "breakpoints": true
+    }
+  ]
+}
